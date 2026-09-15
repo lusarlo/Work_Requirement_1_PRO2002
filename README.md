@@ -12,7 +12,7 @@ I decided to refactor this example following the Single Responsibility Principle
 By keeping responsibilities separate, the system is easier to understand, extend, and maintain.
 
 ## Order Creation Conditional Logic
-The original OrderProcessor used if/else statements to decide which order class should be created for each order type. This made the creation logic harder to read and meant that another conditional branch had to be added whenever a new order type was needed.
+The original OrderProcessor used if/else statements to decide which order class should be created for each order type. This made the creation logic harder to read and meant that another conditional branch had to be added when a new order type was needed.
 I decided to refactor this example using the Factory pattern, therefore I moved the object creation responsibility into a separate class.
 - OnlineOrder: represents an order made online.
 - StoreOrder: represents an order made in a store.
