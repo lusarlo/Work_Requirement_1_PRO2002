@@ -8,6 +8,7 @@ I decided to refactor this example following the Single Responsibility Principle
 - UserSaver: saves user information in database.
 - EmailSender: send welcome email to user.
 - UserReport: generate report to user.
+
 By keeping responsibilities separate, the system is easier to understand, extend, and maintain.
 
 ## Order Creation Conditional Logic
